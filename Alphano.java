@@ -16,7 +16,7 @@ public static void main(String args[]){
         break;
       }
   }
-  if(k=0){
+  if(k==0){
     System.out.println("No");
   }
 }
