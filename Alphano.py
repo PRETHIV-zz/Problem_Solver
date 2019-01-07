@@ -1,3 +1,4 @@
+#prethiv
 c=input()
 if c.isalpha():
   print("Alphabet")
