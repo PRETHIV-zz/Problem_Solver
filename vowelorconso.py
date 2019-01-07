@@ -3,7 +3,7 @@ c=input()
 k=0
 if c in l:
   print("Vowel")
-elif not c.isAlpha():
+elif not c.isalpha():
   print("invalid")
 else:
   print("Consonant")
