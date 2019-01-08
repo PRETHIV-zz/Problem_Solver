@@ -1,3 +1,4 @@
+#it is my own code guvi
 n=int(input())
 rev=0
 a=n
