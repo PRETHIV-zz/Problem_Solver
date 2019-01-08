@@ -7,4 +7,4 @@ except:
         i=int(n)
         print("yes")
     except:
-        print("no")
+        print("No")
