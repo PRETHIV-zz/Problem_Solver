@@ -11,6 +11,6 @@ res=0
 for i in l:
     res=res+(i**dig)
 if res==n:
-    print("Armstrong")
+    print("yes")
 else:
-    print("Not Armstrong")
+    print("no")
