@@ -1,10 +1,12 @@
 #include<stdio.h>
-#include<string.h>
 int main(){
-char s[10000],*s1=malloc(10000);
+char s[10000],s1[10000];
 scanf("%s",s);
 int i;
-s1=strrev(s);
+for(i=strlen(s);i>=0;i--){
+    s1[strlen(s)-i]=s[i-1];
+}
 printf("%s",s1);
 return 0;
 }
+
