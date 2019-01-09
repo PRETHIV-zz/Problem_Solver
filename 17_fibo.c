@@ -6,6 +6,13 @@ int main()
     int n;
     scanf("%d",&n);
     int i;
+    if(n==1){
+        printf("%d",b);
+    }
+    else if(n==0){
+        
+    }
+    else{
     for(i=0;i<n;i++){
         sum=a+b;
         if(i==0){
@@ -20,6 +27,7 @@ int main()
         }
         a=b;
         b=sum;
+    }
     }
     return 0;
 }
