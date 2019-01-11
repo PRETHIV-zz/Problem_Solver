@@ -3,6 +3,7 @@
 x,y=map(str,input().split(" "))
 lx=len(x)
 ly=len(y)
+c=0
 if ly>lx:
     n=ly-lx
     for i in range(n):
@@ -12,7 +13,7 @@ elif lx>ly:
     for i in range(ly):
         e+=x[i]
     x=e
-c=0
+    c=c+(lx-ly)
 for i in range(len(x)):
     if x[i]!=y[i]:
         c+=1
