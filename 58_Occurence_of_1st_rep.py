@@ -15,4 +15,7 @@ for i in range(len(l1)):
                 ch=1
                 cnt=tempcnt
                 ans=l1[i]
-print(ans)
+if ans!=0:
+    print(ans)
+else:
+    print("unique")
