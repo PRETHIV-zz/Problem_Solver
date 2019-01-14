@@ -9,6 +9,6 @@ for i in range(len(l)):
         ans.append(l[i])
 for i in range(len(ans)):
     if i==len(ans)-1:
-        print(ans[i],end="")
+        print(ans[i],end=" ")
     else:
         print(ans[i],end=" ")
