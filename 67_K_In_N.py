@@ -7,7 +7,7 @@ for i in range(len(l)):
             flag=1
             print("YES")
             break
-        if flag==1:
+    if flag==1:
             break
 if flag==0:
     print("NO")
