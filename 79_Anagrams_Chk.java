@@ -26,12 +26,12 @@ class Ideone
 			s[i]=ss.next();
 			s1[i]=sortpret(s[i]);
 		}
-		for(int i=1;i<n;i++){
+		for(int i=0;i<n;i++){
 			
 			if(s1[0].equals(s1[i])){
 				c++;
 			}
 		}
-		System.out.println(c+1);
+		System.out.println(c);
 	}
 }
