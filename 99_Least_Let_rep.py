@@ -14,6 +14,6 @@ for i in range(len(f)):
         ans.append(s[i])
 for i in range(len(ans)):
     if i==len(ans)-1:
-        print(ans[i].lower(),end="")
+        print(ans[i],end="")
     else:
-        print(ans[i].lower(),end=" ")
+        print(ans[i],end=" ")
