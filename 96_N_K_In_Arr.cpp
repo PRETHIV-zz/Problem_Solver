@@ -14,11 +14,11 @@ if(a[i]==k){
 }
 }
 if(flag){
-    cout<<"yes";
+    cout<<"Yes";
 
 }
 else{
-    cout<<"no";
+    cout<<"No";
 }
 return 0;
 }
