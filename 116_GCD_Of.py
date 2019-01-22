@@ -26,6 +26,7 @@ for i in range(q):
                 if chk[kk]%k==0:
                     c+=1
             if c==lchk and k>=gcd:
-                ans.append(k)
+                gcd=k
+        ans.append(gcd)
 for i in ans:
     print(i)
