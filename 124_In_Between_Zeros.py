@@ -1,6 +1,10 @@
 #prethiv.n
 n=input()
-l=list(map(str,n.split("0")))
+a=list(map(str,input().split()))
+ans=""
+for i in a:
+    ans+=i
+l=list(map(str,ans.split("0")))
 l[len(l)-1]=0
 for i in range(len(l)-1):
     if i==len(l)-2:
