@@ -1,9 +1,11 @@
 //l_shift
 #include<stdio.h>
 int main(){
-int n,k;
+int n;
+int k;
 scanf("%d%d",&n,&k);
-n=n>>k;
-printf("%d",n);
+float ans;
+ans=n>>k;
+printf("%.2f",ans);
 return 0;
 }
