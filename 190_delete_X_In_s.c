@@ -22,6 +22,6 @@ for(i=0;s[i]!='\0';i++){
             ans[k++]=s[i];
         }
 }
-printf("%s",ans);
+printf("%s ",ans);
 return 0;
 }
