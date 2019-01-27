@@ -6,7 +6,7 @@ int main()
 {
 int n;
 cin>>n;
-vector<int> v;
+vector<int> v,vf;
 int on=n,rev=0,orev;
 while(on>0){
     rev=rev*10+(on%10);
@@ -14,25 +14,29 @@ while(on>0){
 }
 orev=rev;
 while(rev>0){
-    if(rev%2==0){
+    int t=rev%10;
+    if(t%2==0){
     v.push_back(0);}
     else{
         v.push_back(1);
     }
     rev/=10;
 }
-int c=1,m=0;
+int c=0,m=0;
 for(int i=0;i<v.size()-1;i++){
     if(v[i]==0&&v[i+1]==1||v[i]==1&&v[i+1]==0){
         c+=1;
-        if(m<c){
-        m=c;}
+        if(m<=c){
+        m=c+1;}
+
     }
     else{
         c=0;
-    }
+
+            }
 
 }
 cout<<m;
 return 0;
 }
+
