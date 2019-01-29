@@ -1,4 +1,4 @@
-#Ready to Hunt
+#Ready to Hunt by prethiv
 def ispalin(s):
     ss=s[::-1]
     if s==ss:
