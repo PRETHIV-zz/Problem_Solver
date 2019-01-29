@@ -10,4 +10,4 @@ for i in range(1,n):
     else:
         cc=1
         c=c+cc
-print(c)
+print(str(c)+" ")
