@@ -13,9 +13,6 @@ l=[]
 ans=[]
 for i in a:
     l.append(bincount(i))
-m=max(l)
-lt=min(l)
-while m>=lt:
     t=[]
     for i in range(len(l)):
         if l[i]==m:
