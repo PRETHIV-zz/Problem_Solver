@@ -1,4 +1,6 @@
 #Flipkart_Sum
+#Plz upgrade ur checking system dont consider last space trim and compare we r loosing lots of points on this basis only
+#or else plz specify in the questionthat an empty space is to be printed at the end
 n=int(input())
 s=list(map(int,input().split()))
 f=list(map(int,input().split()))
