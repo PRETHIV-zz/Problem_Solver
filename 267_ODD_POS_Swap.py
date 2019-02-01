@@ -8,4 +8,8 @@ for i in range(len(s)):
         ans.append(t)
     else:
         ans.append(s[i])
-print(*ans)
+for i in range(len(ans)):
+    if i==len(ans)-1:
+        print(ans[i],end="")
+    else:
+        print(ans[i],end=" ")
