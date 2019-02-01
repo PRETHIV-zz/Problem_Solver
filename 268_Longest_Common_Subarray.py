@@ -15,7 +15,7 @@ for i in range(len(s1)):
                 jj+=1
                 if len(s1)==ii or len(s2)==jj:
                     break
-            if m>maxi:
+            if m>=maxi:
                 maxi=m
                 ans=s1[i:i+maxi]
 print(ans)
