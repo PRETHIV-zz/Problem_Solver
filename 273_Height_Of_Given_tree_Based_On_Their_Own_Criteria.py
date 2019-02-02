@@ -4,6 +4,7 @@
 #i used level order traversal for parent node searching in each step since it is going to be the easiest method
 # and i used queee method to find unlike ordinary printing technique
 #DS Problem_Solve _Pandradhunale oru thani gethu dhana sir
+#DS Problem_Solve _Pandradhunale oru thani gethu dhana sir
 class Tree:
     def __init__(self,d):
         self.data=d
@@ -56,6 +57,11 @@ def findheight(root):
             return r+1
 n,k=map(int,input().split())
 root=Tree(None)
+find=True
+if n==0 and k==0:
+    find=False
+    h=0
+    print(h)
 for i in range(k):
     if i==0:
         r,nn=map(int,input().split())
@@ -67,4 +73,5 @@ for i in range(k):
         temp=findroot(root,p)
         newnode=Tree(c)
         insertele(temp,newnode)
-print(findheight(root))
+if find:
+    print(findheight(root))
