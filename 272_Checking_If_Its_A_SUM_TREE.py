@@ -83,10 +83,6 @@ def passroot(root):
 n,m=map(int,input().split())
 root=Tree(None)
 chk=True
-if n==1 and m==0:
-    dummy=map(int,input().split())
-    print("YES")
-    chk=False
 for i in range(m):
     if i==0:
         nn,val=map(int,input().split())
