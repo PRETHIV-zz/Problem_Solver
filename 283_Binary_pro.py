@@ -2,8 +2,7 @@
 def deceq(n):
     su=0
     for i in range(n):
-        su+=(2**i
-             )
+        su+=(2**i)
     return su
 def makeq(s,c):
     while len(s)<c:
