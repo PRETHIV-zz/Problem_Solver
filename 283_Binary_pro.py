@@ -20,4 +20,4 @@ for i in range(decno+1):
     else:
         ans.append(makeq(s,n))
 for i in ans:
-    print(i)
+    print(i,end="\n")
