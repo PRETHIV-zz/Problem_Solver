@@ -1,6 +1,5 @@
 #nofind
 nn=int(input())
-ans=[1]
 a2=[]
 for i in range(nn,-1,-1):
     #print(xsumtot(str(i)),i)
@@ -10,6 +9,6 @@ for i in range(nn,-1,-1):
     if q<nn-2:
         break
 a2.reverse()
-ans.extend(a2)
-for i in ans:
+print(len(a2))
+for i in a2:
     print(i)
