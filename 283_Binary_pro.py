@@ -12,10 +12,13 @@ def makeq(s,c):
 n=int(input())
 decno=deceq(n)
 #print(decno)
+ans=[]
 for i in range(decno+1):
     s=bin(i)
     s=s[2:]
     if len(s)==n:
-        print(s)
+        ans.append(s)
     else:
-        print(makeq(s,n))
+        ans.append(makeq(s,n))
+for i in ans:
+    print(i)
