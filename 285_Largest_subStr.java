@@ -21,6 +21,7 @@ class Ideone
 			if(temp.compareTo(t1)>0){
 				ans=temp;
 				t1=ans;
+				break;
 			}
 		}
 		System.out.println(ans);
