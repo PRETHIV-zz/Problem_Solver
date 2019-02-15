@@ -2,11 +2,13 @@
 #include<iostream>
 #include<string>
 #include<algorithm>
+#include<set>
 using namespace std;
+set<string> ans;
 void permute(string in,string out)
 {
     if(in==""){
-        cout<<out<<endl;
+        ans.insert(out);
     }
     else{
         for(int i=0;i<in.size();i++){
@@ -21,5 +23,12 @@ int main()
 string s;
 cin>>s;
 permute(s,"");
+set<string>::iterator b,e;
+b=ans.begin();
+e=ans.end();
+while(b!=e){
+    cout<<*b<<endl;
+    b++;
+}
 return 0;
 }
