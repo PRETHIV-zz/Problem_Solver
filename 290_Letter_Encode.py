@@ -24,4 +24,4 @@ for i in range(len(ind)):
         asp=asp+s[ind[i]-1]
     else:
         asp+=str(ans[i])+"*"+s[ind[i]-1]
-print(asp)
+print(asp,end="")
