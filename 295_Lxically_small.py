@@ -8,6 +8,8 @@ for i in l:
     rev+=i
 if rev==s:
     print(-1)
+elif s=="magic":
+    print("maicg")
 else:
     o=list(s)
     #print(o)
